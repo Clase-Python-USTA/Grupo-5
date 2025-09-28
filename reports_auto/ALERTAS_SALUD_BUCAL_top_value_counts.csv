@@ -1,0 +1,31 @@
+ALERTAS_SALUD_BUCAL,count
+99999,54545
+2- Inadecuada frecuencia del cepillado dental.,422
+25- Paciente sano,303
+29- No aplica,303
+28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,142
+1- Uso inadecuado de los elementos de higiene oral,109
+1- Uso inadecuado de los elementos de higiene oral | 2- Inadecuada frecuencia del cepillado dental.,94
+17- Padres que no cepillan los dientes de ninos(as) menores de 7 anos,73
+18- Padres que no supervisan el cepillado de los ninos(as) entre los 7 y 12 anos,69
+2- Inadecuada frecuencia del cepillado dental. | 17- Padres que no cepillan los dientes de ninos(as) menores de 7 anos,40
+1- Uso inadecuado de los elementos de higiene oral | 17- Padres que no cepillan los dientes de ninos(as) menores de 7 anos,27
+1- Uso inadecuado de los elementos de higiene oral | 25- Paciente sano,24
+2- Inadecuada frecuencia del cepillado dental. | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,24
+18- Padres que no supervisan el cepillado de los ninos(as) entre los 7 y 12 anos | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,23
+2- Inadecuada frecuencia del cepillado dental. | 18- Padres que no supervisan el cepillado de los ninos(as) entre los 7 y 12 anos,18
+1- Uso inadecuado de los elementos de higiene oral | 2- Inadecuada frecuencia del cepillado dental. | 18- Padres que no supervisan el cepillado de los ninos(as) entre los 7 y 12 anos,18
+1- Uso inadecuado de los elementos de higiene oral | 3- Dieta cariogenica | 25- Paciente sano,15
+1- Uso inadecuado de los elementos de higiene oral | 2- Inadecuada frecuencia del cepillado dental. | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,15
+17- Padres que no cepillan los dientes de ninos(as) menores de 7 anos | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,13
+2- Inadecuada frecuencia del cepillado dental. | 18- Padres que no supervisan el cepillado de los ninos(as) entre los 7 y 12 anos | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,13
+1- Uso inadecuado de los elementos de higiene oral | 2- Inadecuada frecuencia del cepillado dental. | 17- Padres que no cepillan los dientes de ninos(as) menores de 7 anos,13
+2- Inadecuada frecuencia del cepillado dental. | 3- Dieta cariogenica,12
+4- No acceso al servicio de odontologia,10
+10- Gingivitis,9
+3- Dieta cariogenica,9
+1- Uso inadecuado de los elementos de higiene oral | 2- Inadecuada frecuencia del cepillado dental. | 25- Paciente sano,9
+1- Uso inadecuado de los elementos de higiene oral | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,8
+1- Uso inadecuado de los elementos de higiene oral | 4- No acceso al servicio de odontologia | 25- Paciente sano,8
+1- Uso inadecuado de los elementos de higiene oral | 2- Inadecuada frecuencia del cepillado dental. | 4- No acceso al servicio de odontologia,8
+2- Inadecuada frecuencia del cepillado dental. | 17- Padres que no cepillan los dientes de ninos(as) menores de 7 anos | 28- No asiste a valoracion en salud bucal acorde a frecuencia para la edad,8

@@ -1,0 +1,41 @@
+{
+  "constant_like": [
+    "Sub-Seccion_=>_INFORMACION_DEL_MENOR_NNA_IDENTIFICADO_COMO_TRABAJADOR",
+    "ETNIA",
+    "RazonAbandonoEscolar",
+    "CATEGORIAS_DE_LA_DISCAPACIDAD",
+    "PUEBLO",
+    "ESPECIAL",
+    "SUBGRUPO_SISBEN",
+    "VEREDA",
+    "ULTIMA_INTERVENCION",
+    "Sub-Seccion_=>_INFORMACION_DEL_ACUDIENTE",
+    "Sub-Seccion_=>_INFORMACION_LABORAL",
+    "ESPECIAL.1",
+    "ACOMPANAMIENTO_2",
+    "ACOMPANAMIENTO_3",
+    "ACOMPANAMIENTO_4",
+    "Sub-Seccion_=>_Intervencion_de_Nino,_Nina_o_Adolescente",
+    "Sub-Seccion_=>_RESULTADOS_DE_LA_INTERVENCION",
+    "Sub-Seccion_=>_RESULTADOS_DE_LA_REPOSICION"
+  ],
+  "high_cardinality": [
+    "FECHA_DE_NACIMIENTO",
+    "NOMBRE_EAPB",
+    "BARRIO",
+    "FECHA_DE_LA_ULTIMA_INTERVENCION",
+    "NOMBRE_EAPB.1",
+    "BARRIO.1",
+    "NOMBRE_DE_LA_UT",
+    "FECHA_SEGUIMIENTO",
+    "FECHA",
+    "FECHA.1",
+    "FECHA.2",
+    "CONDICIONES_CRONICAS",
+    "ALERTAS_SALUD_BUCAL",
+    "FECHA_-_SEGUIMIENTO_CIERRE",
+    "FECHA_-_REPOSICION_DE_PSICOLOGO_O_TRABAJADOR_SOCIAL_POSTERIOR_AL_SEGUIMIENTO_-_CIERRE"
+  ],
+  "duplicate_rows": 3709,
+  "candidate_ids": []
+}

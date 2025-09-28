@@ -1,0 +1,14 @@
+ALERTAS_EN_NUTRICION,count
+99999,54829
+11- No aplica,1485
+3- Con riesgo de desordenes alimenticios,53
+2- Con clasificacion nutricional de sobrepeso u obesidad (peso/talla entre 2 y 3 D.E. o > 3 D.E.),24
+9- Con clasificacion nutricional de Sobrepeso (peso/talla > +2 a ≤ +3 DE),22
+1- Con clasificacion nutricional de desnutricion aguda moderada (peso/talla entre -2 y -3 D.E.),18
+10- Con clasificacion nutricional de Obesidad (peso/talla > +3 DE),15
+6- Con clasificacion nutricional de riesgo de desnutricion aguda (peso/talla entre -1 y -2),14
+4- Problemas de inseguridad alimentaria y nutricional,9
+8- Adulto mayor con inapetencia o bajo consumo de alimentos,1
+4- Problemas de inseguridad alimentaria y nutricional | 10- Con clasificacion nutricional de Obesidad (peso/talla > +3 DE),1
+3- Con riesgo de desordenes alimenticios | 4- Problemas de inseguridad alimentaria y nutricional,1
+3- Con riesgo de desordenes alimenticios | 10- Con clasificacion nutricional de Obesidad (peso/talla > +3 DE),1
