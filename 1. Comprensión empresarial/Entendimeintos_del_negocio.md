@@ -67,9 +67,6 @@ Grupo-5
  ┣ reports_auto
  ┃ ┣ figures
  ┃ ┣ groups
- ┣ src
- ┃ ┣ limpieza.py           # Scripts de ETL
- ┃ ┣ modelos.py            # Modelos GLM / ML
  ┣ origen.py
  ┗ requirements.txt
 ```
