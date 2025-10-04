@@ -7,7 +7,7 @@ Analizar la información sociodemográfica, educativa, de salud y territorial co
 
 ### Objetivos Específicos  
 1. Caracterizar a la población menor de edad según variables como edad, sexo, etnia, nivel educativo, ocupación y composición del hogar, con el fin de establecer perfiles de riesgo.  
-2. Evaluar las condiciones de salud y nutrición de la población infantil y adolescente a partir de indicadores registrados en la base, tales como afiliación al SGSSS, clasificación nutricional, alertas psicosociales y enfermedades reportadas.   
+2. Identificar las condiciones de salud y nutrición de la población infantil y adolescente a partir de indicadores registrados en la base, tales como afiliación al SGSSS, clasificación nutricional, alertas psicosociales y enfermedades reportadas.   
 3. Desarrollar un modelo de predicción de riesgo social que permita identificar y explicar las variables que más influyen en la probabilidad de que un menor se encuentre en situación de vulnerabilidad, considerando de manera opcional el uso de Modelos Lineales Generalizados (GLM) para su implementación.  
 
 ---
