@@ -33,8 +33,7 @@ Analizar la información sociodemográfica, educativa, de salud y territorial co
 ## Objetivos de la Minería de Datos
 - Clasificación de riesgo social: Agrupar a la población según perfiles construidos con variables sociodemográficas, de salud y educación.  
 - Predicción: Construir un modelo de riesgo social que estime la probabilidad de que un menor presente condiciones de vulnerabilidad, explicando qué variables influyen más en esa probabilidad. Se contempla el uso de Modelos Lineales Generalizados (GLM) por su capacidad interpretativa en escenarios sociales.  
-- Análisis territorial: Identificar zonas críticas a través de las variables de localidad, barrio, UPZ y manzana del cuidado.  
-- Evaluación de impacto: Medir el efecto de intervenciones registradas (nutrición, psicosociales, educativas) sobre la reducción de alertas en la población.  
+- Análisis territorial: Identificar zonas críticas a través de las variables de localidad, barrio, UPZ y manzana del cuidado. 
 
 ---
 
