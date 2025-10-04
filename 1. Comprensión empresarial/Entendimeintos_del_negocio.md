@@ -3,7 +3,7 @@
 ## Objetivos del Negocio
 
 ### Objetivo General  
-Analizar la información sociodemográfica, educativa, de salud y territorial contenida en la base de datos de poblacional de menores de edad con el fin de identificar condiciones de vulnerabilidad en población infantil y adolescente, y orientar la toma de decisiones en intervenciones sociales mediante la construcción de un modelo de predicción de riesgo social.
+Analizar la información sociodemográfica, educativa, de salud y territorial contenida en la base de datos de interveciones a población de niños y adolescentes en Bogotá con el fin de identificar condiciones de vulnerabilidad en esta población, y orientar la toma de decisiones en intervenciones sociales mediante la construcción de un modelo de predicción de riesgo social.
 
 ### Objetivos Específicos  
 1. Caracterizar a la población menor de edad según variables como edad, sexo, etnia, nivel educativo, ocupación y composición del hogar, con el fin de establecer perfiles de riesgo.  
