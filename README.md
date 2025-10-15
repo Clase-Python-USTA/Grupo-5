@@ -112,7 +112,7 @@ print(resultado.summary())
 
 ---
 <img width="691" height="548" alt="image" src="https://github.com/user-attachments/assets/ec2d44ba-88bd-40f4-a5d1-780bb42473bb" />
-
+El modelo discrimina bien (AUC=0.88): separa con solidez casos con y sin alerta. El umbral se fija según el costo de errores: si es crítico no omitir vulnerables, prioriza sensibilidad alta; si la capacidad es limitada, busca menos falsos positivos
 
 <img width="707" height="547" alt="image" src="https://github.com/user-attachments/assets/e240067f-c515-482a-a331-b778505db877" />
 
