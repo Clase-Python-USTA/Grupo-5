@@ -94,9 +94,11 @@ print(resultado.summary())
 - El modelo alcanzó un **AUC-ROC superior al 0.80**, indicando buen poder discriminativo.
 
 ---
-<img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/e306a3ea-1c35-44a2-9905-4cb898946c28" />
+<img width="691" height="548" alt="image" src="https://github.com/user-attachments/assets/ec2d44ba-88bd-40f4-a5d1-780bb42473bb" />
 
-<img width="690" height="547" alt="image" src="https://github.com/user-attachments/assets/49ac8db5-f3b7-470e-a7bb-ca35b5bd63b0" />
+
+<img width="691" height="548" alt="image" src="https://github.com/user-attachments/assets/18b878ff-c9d9-4439-8d67-768c4ad8c22d" />
+
 
 
 ## Evaluación  
