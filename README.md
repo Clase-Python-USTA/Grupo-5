@@ -96,6 +96,8 @@ print(resultado.summary())
 ---
 <img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/e306a3ea-1c35-44a2-9905-4cb898946c28" />
 
+<img width="690" height="547" alt="image" src="https://github.com/user-attachments/assets/49ac8db5-f3b7-470e-a7bb-ca35b5bd63b0" />
+
 
 ## Evaluación  
 
