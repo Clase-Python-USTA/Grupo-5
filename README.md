@@ -50,7 +50,7 @@ Las tasas de alerta son heterogéneas por localidad. Se observan porcentajes ele
 Las edades y tallas son similares entre quienes tienen y no tienen alerta; por sí solas no distinguen el riesgo. Se observan valores de talla poco creíbles (p. ej., 0 cm) que deben corregirse. Para comparar tallas de forma justa, hay que considerar la edad
 
 <img width="989" height="589" alt="image" src="https://github.com/user-attachments/assets/fa242cdf-0455-4ca1-b35e-4663b10e8dda" />
-
+En ambos sexos la proporción de casos con alerta es muy similar y mayoritaria; el sexo, por sí solo, no diferencia el riesgo
 
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/8bda4507-08be-45df-b082-9d532cd51ec6" />
 
