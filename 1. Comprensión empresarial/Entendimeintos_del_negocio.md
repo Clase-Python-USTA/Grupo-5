@@ -7,10 +7,14 @@ Diseñar y validar un índice estadístico de riesgo social para la población i
 
 ### Objetivos Específicos  
 1. Definir y operacionalizar indicadores dentro de tres dimensiones principales del riesgo social: edad, nivel educativo y condiciones del hogar o entorno.
+   
 2. Construir un índice compuesto de riesgo social, estandarizando y ponderando los indicadores seleccionados.
-3.Ajustar un modelo explicativo tipo GLM (Modelo Lineal Generalizado) para estimar el efecto estadístico de cada dimensión en la probabilidad de vulnerabilidad.
-4.Validar el índice mediante métricas estadísticas, garantizando su robustez e interpretabilidad.
-5.Entregar los resultados de análisis y modelado, sin proponer estrategias de intervención, dejando dicha interpretación a los especialistas en el área social.
+   
+3. Ajustar un modelo explicativo tipo GLM (Modelo Lineal Generalizado) para estimar el efecto estadístico de cada dimensión en la probabilidad de vulnerabilidad.
+
+4. Validar el índice mediante métricas estadísticas, garantizando su robustez e interpretabilidad.
+
+5. Entregar los resultados de análisis y modelado, sin proponer estrategias de intervención, dejando dicha interpretación a los especialistas en el área social.
 
 ---
 
@@ -33,13 +37,16 @@ Diseñar y validar un índice estadístico de riesgo social para la población i
 
 ## Objetivos de la Minería de Datos
 - Construcción del Índice de Riesgo Social (IRS): basado en tres dimensiones:
+  
 ->Demográfica: edad y grupo etario.
+
 ->Educativa: nivel educativo y asistencia escolar.
+
 ->Familiar/Social: composición del hogar y alertas psicosociales.
 
--Modelado Predictivo: Construir un modelo de riesgo social que estime la probabilidad de que un menor presente condiciones de vulnerabilidad, explicando qué variables influyen más en esa probabilidad.Uso de un GLM binomial o ordinal para estimar la influencia de las variables en el nivel de riesgo, interpretando los betas como evidencia estadística.
+- Modelado Predictivo: Construir un modelo de riesgo social que estime la probabilidad de que un menor presente condiciones de vulnerabilidad, explicando qué variables influyen más en esa probabilidad.Uso de un GLM binomial o ordinal para estimar la influencia de las variables en el nivel de riesgo, interpretando los betas como evidencia estadística.
 
--Validación: evaluación del ajuste del modelo e interpretación de resultados mediante indicadores estadísticos, sin emitir juicios de política o intervención.
+- Validación: evaluación del ajuste del modelo e interpretación de resultados mediante indicadores estadísticos, sin emitir juicios de política o intervención.
 
 ---
 
