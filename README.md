@@ -42,6 +42,18 @@ Los hallazgos iniciales muestran **variabilidad significativa entre localidades*
 
 ---
 
+<img width="1186" height="690" alt="image" src="https://github.com/user-attachments/assets/ac93f520-afd6-4b16-b3b1-7f5c38edc71b" />
+
+<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/e756aa84-b183-4789-acd6-f5db9380938c" />
+
+
+<img width="989" height="589" alt="image" src="https://github.com/user-attachments/assets/fa242cdf-0455-4ca1-b35e-4663b10e8dda" />
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/8bda4507-08be-45df-b082-9d532cd51ec6" />
+
+<img width="987" height="590" alt="image" src="https://github.com/user-attachments/assets/b2b8d6c4-50b8-459a-9908-e9caf6b0aade" />
+
+
 ## Preparación de los Datos  
 
 El proceso de preparación incluyó:
