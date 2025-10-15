@@ -97,7 +97,8 @@ print(resultado.summary())
 <img width="691" height="548" alt="image" src="https://github.com/user-attachments/assets/ec2d44ba-88bd-40f4-a5d1-780bb42473bb" />
 
 
-<img width="691" height="548" alt="image" src="https://github.com/user-attachments/assets/18b878ff-c9d9-4439-8d67-768c4ad8c22d" />
+<img width="707" height="547" alt="image" src="https://github.com/user-attachments/assets/e240067f-c515-482a-a331-b778505db877" />
+
 
 
 
