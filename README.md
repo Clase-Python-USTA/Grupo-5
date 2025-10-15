@@ -116,7 +116,11 @@ El modelo discrimina bien (AUC=0.88): separa con solidez casos con y sin alerta.
 
 <img width="707" height="547" alt="image" src="https://github.com/user-attachments/assets/e240067f-c515-482a-a331-b778505db877" />
 
+Aciertos: 1.468 casos con alerta bien detectados y 176 sin alerta bien descartados.
 
+Errores: 161 falsos negativos (se escaparon con alerta) y 74 falsos positivos (se marcaron con alerta sin serlo).
+
+El modelo detecta muy bien a quienes tienen alerta, pero se le dificulta distinguir a algunos que No alerta (hay varios falsos positivos). Esto es normal cuando la clase “Sí” es muy prevalente
 
 
 ## Evaluación  
