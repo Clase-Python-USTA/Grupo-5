@@ -57,7 +57,7 @@ En ambos sexos la proporción de casos con alerta es muy similar y mayoritaria; 
 “Los estratos 1–2 concentran la mayor cantidad de casos con alerta; el estrato 3 presenta valores intermedios y el estrato 4 tiene muy pocos registros. Para una comparación justa se recomienda reportar porcentajes e indicar el tamaño muestral por estrato
 
 <img width="987" height="590" alt="image" src="https://github.com/user-attachments/assets/b2b8d6c4-50b8-459a-9908-e9caf6b0aade" />
-
+Hay focos territoriales claros en el sur y suroccidente (Bosa–Kennedy–Rafael Uribe–Ciudad Bolívar). Es donde hoy se concentran más casos con alerta
 
 ## Preparación de los Datos  
 
