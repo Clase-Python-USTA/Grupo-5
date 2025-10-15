@@ -47,9 +47,10 @@ Los hallazgos iniciales muestran **variabilidad significativa entre localidades*
 Las tasas de alerta son heterogéneas por localidad. Se observan porcentajes elevados en Usme, San Cristóbal, Bosa, Ciudad Bolívar y Santa Fe, mientras que Barrios Unidos, Usaquén y Suba presentan valores relativamente menores. Dado que algunos porcentajes extremos corresponden a localidades con bajo número de registros, se reportan intervalos de confianza y el tamaño muestral para evitar sobreinterpretación
 
 <img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/e756aa84-b183-4789-acd6-f5db9380938c" />
-
+Las edades y tallas son similares entre quienes tienen y no tienen alerta; por sí solas no distinguen el riesgo. Se observan valores de talla poco creíbles (p. ej., 0 cm) que deben corregirse. Para comparar tallas de forma justa, hay que considerar la edad
 
 <img width="989" height="589" alt="image" src="https://github.com/user-attachments/assets/fa242cdf-0455-4ca1-b35e-4663b10e8dda" />
+
 
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/8bda4507-08be-45df-b082-9d532cd51ec6" />
 
