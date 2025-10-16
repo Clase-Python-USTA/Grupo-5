@@ -197,7 +197,7 @@ En conjunto, estos resultados indican que ni la edad ni la talla parecen ser fac
    
   ![Proporción por sexo](https://github.com/user-attachments/assets/fa242cdf-0455-4ca1-b35e-4663b10e8dda)
   
--En ambos sexos la proporción de casos con alerta es muy similar y mayoritaria; el sexo, por sí solo, no diferencia el riesgo
+La distribución entre hombres y mujeres es muy similar, Para ambos géneros, hay una diferencia muy notable en la cantidad de personas que tienen alerta ("Sí") en comparación con las que no tienen 
 
 **Distribución por estrato**
 
