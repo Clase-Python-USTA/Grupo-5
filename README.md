@@ -203,7 +203,8 @@ La distribución entre hombres y mujeres es muy similar, Para ambos géneros, ha
 
 ![Distribución por estrato](https://github.com/user-attachments/assets/8bda4507-08be-45df-b082-9d532cd51ec6)
   
--“Los estratos 1–2 concentran la mayor cantidad de casos con alerta; el estrato 3 presenta valores intermedios y el estrato 4 tiene muy pocos registros. Para una comparación justa se recomienda reportar porcentajes e indicar el tamaño muestral por estrato.
+-Los estratos "Bajo" concentran la mayor cantidad de casos con alerta; Los estratos "Bajo-bajo" y "Medio-bajo" tienen una distribución más equilibrada entre las personas con alerta y sin alerta, aunque sigue siendo más frecuente tener alerta ("Sí"). Para el caso de estrato "Medio" este no presenta alertas 
+
 
 ---
 
