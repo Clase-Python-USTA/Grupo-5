@@ -5,7 +5,7 @@
 
 ---
 
-## Comprensión del Negocio  
+## 1. Comprensión del Negocio  
 
 **Propósito.** Diseñar y validar un **índice estadístico de riesgo social** para población infantil y adolescente de Bogotá usando variables sociodemográficas, educativas y del entorno familiar, con el fin de **identificar niveles de vulnerabilidad** y generar resultados cuantitativos que sirvan como insumo para posteriores decisiones por parte de expertos del área social.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Comprensión de los Datos  
+## 2. Comprensión de los Datos  
 
 1. Comprensión de los Datos
 
@@ -104,7 +104,7 @@ Las variables de Alertas, aunque presenta gran cantidad de datos nulos, se ident
 
 ---
 
-## Preparación de los Datos  
+## 3. Preparación de los Datos  
 
 Durante la etapa de Preparación de los Datos se aplicaron diversas transformaciones y depuraciones para mejorar la calidad del conjunto de datos y asegurar su idoneidad para el análisis posterior. Esta fase se centró en la limpieza estructural, normalización de variables y generación de nuevas columnas derivadas de la información existente.
 
@@ -208,7 +208,7 @@ La distribución entre hombres y mujeres es muy similar, Para ambos géneros, ha
 
 ---
 
-## Modelado  
+## 4. Modelado  
 
 **Modelado**
 
@@ -270,7 +270,7 @@ Se añadió una columna derivada IRA_alerta (Índice de Riesgo de Alerta = p_ale
 | 108.0      | —        | Mujer  | 2. Bajo | Tunjuelito      | 1.000    | 100.0      | Alto          |
 
 
-## Evaluación
+## 5. Evaluación
 
 La etapa de Evaluación midió el desempeño y la calidad predictiva del modelo mediante métricas de precisión, sensibilidad y discriminación.
 
@@ -320,7 +320,7 @@ Interpretabilidad: El modelo mantiene alta interpretabilidad y permite generar �
 
 ---
 
-## Implementación  
+## 6. Implementación  
 
 El modelo y el índice de riesgo pueden implementarse de manera reproducible mediante:
 - Scripts automatizados en Python para limpieza y modelado.  
