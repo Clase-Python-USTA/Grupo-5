@@ -181,7 +181,7 @@ Tras las etapas de limpieza, depuración y normalización, el conjunto de datos 
   
   ![Tasas por localidad](https://github.com/user-attachments/assets/ac93f520-afd6-4b16-b3b1-7f5c38edc71b) 
 
-Las localidades del sur y centro como Usme, San Cristóbal o Ciudad Bolívar concentran los mayores niveles de alerta, mientras que las del norte como Usaquén, Barrios Unidos y Suba presentan los más bajos. Esto refleja un patrón territorial de vulnerabilidad asociado posiblemente a condiciones socioeconómicas
+Las localidades como Usme, La Candelaria y Teusaquillo concentran los mayores niveles de alerta, mientras que otras como Usaquén, Barrios Unidos y Suba presentan los más bajos. Esto refleja un patrón territorial de vulnerabilidad en estas localidades
 
 - **Distribución por edad y talla**
   
