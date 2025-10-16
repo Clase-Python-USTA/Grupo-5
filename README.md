@@ -187,7 +187,11 @@ Las localidades del sur y centro como Usme, San Cristóbal o Ciudad Bolívar con
   
   ![Alertas por edad y talla](https://github.com/user-attachments/assets/e756aa84-b183-4789-acd6-f5db9380938c)
   
--Las edades y tallas son similares entre quienes tienen y no tienen alerta; por sí solas no distinguen el riesgo. Se observan valores de talla poco creíbles (p. ej., 0 cm) que deben corregirse. Para comparar tallas de forma justa, hay que considerar la edad
+En el gráfico correspondiente a la edad, se observa que tanto los individuos con alerta como los que no la tienen presentan una distribución similar, con medianas cercanas a los 8 a 9 años y rangos intercuartílicos amplios que abarcan desde la primera infancia hasta la adolescencia. Esto puede sugerir que la edad no muestra una relación clara con la aparición de alertas dentro del conjunto de datos.
+
+En el gráfico que muestra la talla (cm), se evidencia un comportamiento similar al de la edad en donde las medianas y rangos son muy próximos entre ambos grupos, sin diferencias evidentes que indiquen un patrón asociado a la presencia de alertas
+
+En conjunto, estos resultados indican que ni la edad ni la talla parecen ser factores diferenciadores del riesgo social representado por las alertas. Por tanto, es probable que las alertas estén más vinculadas con otras variables
 
 - **Proporción por sexo**
    
