@@ -7,14 +7,14 @@
 
 ## Comprensión del Negocio  
 
-El proyecto tiene como propósito **diseñar y validar un índice estadístico de riesgo social** para la población infantil y adolescente de Bogotá, utilizando variables sociodemográficas, educativas y del entorno familiar. El objetivo central es identificar niveles de vulnerabilidad social y generar resultados cuantitativos que sirvan como insumo para posteriores decisiones por parte de expertos del área social.
+**Propósito.** Diseñar y validar un **índice estadístico de riesgo social** para población infantil y adolescente de Bogotá usando variables sociodemográficas, educativas y del entorno familiar, con el fin de **identificar niveles de vulnerabilidad** y generar resultados cuantitativos que sirvan como insumo para posteriores decisiones por parte de expertos del área social.
 
-Los objetivos específicos del negocio incluyen:
--  Definir y operacionalizar indicadores en las dimensiones demográfica, educativa y familiar/social.
--  Construir y validar un índice compuesto de riesgo social mediante estandarización, ponderación y el uso de métricas estadísticas de ajuste.
--  Ajustar un Modelo Lineal Generalizado (GLM) para estimar el efecto de las variables sobre la vulnerabilidad y entregar resultados estadísticos y visuales.
+**Objetivos específicos.**
+- Definir y operacionalizar indicadores en dimensiones **demográfica**, **educativa** y **familiar/social**.
+- Construir y validar un **índice compuesto** de riesgo mediante estandarización, ponderación y métricas de ajuste.
+- Ajustar un **GLM (logístico binario)** para estimar el efecto de variables sobre la vulnerabilidad y entregar resultados estadísticos y visuales.
 
-El alcance del trabajo se limita al **análisis estadístico y modelado predictivo**, mientras que la interpretación social y la definición de estrategias quedan a cargo de los profesionales del sector.
+**Alcance.** Se limita al **análisis estadístico y modelado predictivo**; la interpretación social y las estrategias quedan a cargo de expertos del sector.
 
 ---
 
@@ -26,11 +26,9 @@ Durante la etapa de Comprensión de los Datos se realizó una exploración inici
 
 Los resultados permitieron conocer la composición de la base, el grado de completitud de las columnas y la relevancia de ciertos campos que aportan información sobre las condiciones sociodemográficas y territoriales de la población analizada.
 
-1.1 Descripción general de la base de datos
-
-Número de filas: 56,473
-
-Número de columnas: 115
+**Descripción general**
+- **Filas:** 56,473
+- **Columnas:** 115
 
 La base contiene información correspondiente a una sola intervención registrada para cada individuo, sin datos en las intervenciones 2, 3 y 4. Este aspecto limita la posibilidad de realizar comparaciones longitudinales o de seguimiento temporal.
 
@@ -39,25 +37,20 @@ La base contiene información correspondiente a una sola intervención registrad
 El análisis reveló un alto porcentaje de valores faltantes en la mayoría de las columnas, lo que representa un desafío importante para la preparación de los datos y la calidad del análisis.
 Entre las columnas con 100% de valores nulos se encuentran aquellas relacionadas con información de acompañamientos, resultados de intervención y secciones complementarias, tales como:
 
-INFORMACIÓN DEL ACUDIENTE
-
-INFORMACIÓN LABORAL
-
-RESULTADOS DE LA REPOSICIÓN
-
-Intervención de Niño, Niña o Adolescente
-
-DIRECCIÓN DE LA VIVIENDA
-
-ACOMPAÑAMIENTO 2, 3 y 4
+- *Información del acudiente*.
+- *información laboral*.
+- *dirección de la vivienda*.
+- *Resultados de la intervención*.
+- *reposición*.
+- *compañamientos* 2, 3 y 4.
 
 Otras variables relevantes también presentan porcentajes muy altos de nulos, cercanos o superiores al 95%, lo cual reduce la posibilidad de análisis directo en varios campos.
 
-1.3 Variables relevantes
+**Variables destacadas**
 
 A pesar de la presencia de datos faltantes generalizados, existen variables con información suficiente para su análisis preliminar. A continuación se destacan aquellas con mayor relevancia para la comprensión del conjunto de datos:
 
-🔹 Alertas
+- **Alertas** 
 
 Existen múltiples columnas que contienen información sobre diferentes tipos de alertas (ALERTAS PSICOSOCIALES, ALERTAS SALUD BUCAL, ALERTAS EN NUTRICIÓN, ALERTAS INFANCIA, entre otras).
 
@@ -65,7 +58,7 @@ Estas variables presentan un porcentaje de valores faltantes entre 96% y 97%, lo
 
 Aunque la cobertura es baja, su presencia es clave, ya que reflejan las situaciones de mayor vulnerabilidad y serán la variable de respuesta principal para el análisis posterior.
 
-🔹 Edad
+- **Edad** 
 
 La variable EDAD tiene 43.79% de valores faltantes, lo que representa casi la mitad de los registros.
 
@@ -73,31 +66,31 @@ Sin embargo, la columna FECHA DE NACIMIENTO presenta solo 19.80% de nulos, lo qu
 
 Este hallazgo indica que la base permite reconstruir la edad real de los individuos, a pesar de los datos faltantes en la columna original.
 
-🔹 Talla CM
+- **Talla (cm)**
 
 Presenta 96.67% de valores faltantes, por lo que la información disponible es mínima.
 
 Su bajo nivel de completitud dificulta su aprovechamiento para el análisis, aunque su inclusión sugiere que la base consideraba indicadores de estado nutricional o de crecimiento.
 
-🔹 Sexo
+- **Sexo**
 
 La variable SEXO tiene 19.78% de valores faltantes, lo que significa que el dato está disponible para más del 80% de los registros.
 
 Se trata de una variable con buena cobertura y potencialmente útil para caracterizar diferencias en la distribución de los casos y las alertas registradas.
 
-🔹 Estrato Socioeconómico
+- **Estrato socioeconómico**
 
 La columna ESTRATO SOCIOECONÓMICO presenta 49.83% de valores faltantes, lo que limita parcialmente su uso.
 
 No obstante, conserva información suficiente para realizar análisis descriptivos, y su inclusión es importante debido a su relación directa con las condiciones de vulnerabilidad.
 
-🔹 Localidad
+- **Localidad**
 
 La columna LOCALIDAD presenta 17.01% de valores faltantes, siendo una de las variables más completas del conjunto de datos.
 
 Su buena cobertura la convierte en una variable clave para el análisis territorial, ya que permite identificar la distribución geográfica de la población y de las alertas.
 
-1.4 Hallazgos generales de la comprensión
+**Hallazgos**
 
 La base contiene información de una sola intervención, sin continuidad en etapas posteriores.
 
@@ -105,68 +98,47 @@ Existe un alto porcentaje de valores faltantes en más de la mitad de las column
 
 Las variables de Alertas, aunque presenta gran cantidad de datos nulos, se identifica como la principal variable de respuesta por reflejar directamente las condiciones de riesgo o vulnerabilidad.
 
-## Incluir grafico de Porcentaje de datos faltantes de las columnas Alertas, edad, talla, sexo, fecha de nacimiento
+**Gráfico de faltantes en variables de interés**
+> *Datos faltantes en Alertas, Edad, Talla, Sexo, Fecha de nacimiento.*  
+> ![Datos faltantes variables de interés](https://github.com/user-attachments/assets/93abfb24-88fa-4619-aefd-9343e60a20e2)
 
-
+---
 
 ## Preparación de los Datos  
 
-2. Preparación de los Datos
-
 Durante la etapa de Preparación de los Datos se aplicaron diversas transformaciones y depuraciones para mejorar la calidad del conjunto de datos y asegurar su idoneidad para el análisis posterior. Esta fase se centró en la limpieza estructural, normalización de variables y generación de nuevas columnas derivadas de la información existente.
 
-2.1 Limpieza inicial y estandarización
+**Limpieza y estandarización**
 
 El proceso de preparación comenzó con la normalización de los nombres de columnas mediante una función que transformó los encabezados al formato snake_case, eliminando acentos, caracteres especiales y prefijos innecesarios como “Sub-Sección =>”.
 Este paso garantizó una estructura uniforme y compatible para la manipulación y análisis de los datos.
 
 También se realizó un control de duplicados y una estandarización de los nombres para evitar conflictos entre columnas con el mismo identificador.
 
-2.2 Eliminación de columnas sin información
+**Eliminación de columnas 100% nulas (18)**
 
 Se eliminaron 18 columnas con el 100% de valores nulos, principalmente relacionadas con información administrativa y de acompañamientos que no contenían ningún registro válido. Entre ellas se encuentran:
 
-informacion_del_menor_nna_identificado_como_trabajador
-
-razonabandonoescolar
-
-pueblo
-
-direccion_de_la_vivienda
-
-especial, especial_1
-
-subgrupo_sisben
-
-vereda, correo_2
-
-ultima_intervencion, informacion_del_acudiente, informacion_laboral
-
-acompanamiento_2, acompanamiento_3, acompanamiento_4
-
-intervencion_de_nino_nina_o_adolescente, resultados_de_la_intervencion, resultados_de_la_reposicion
+- Ejemplos: `informacion_del_acudiente`, `informacion_laboral`, `direccion_de_la_vivienda`, `acompanamiento_2/3/4`, `intervencion_de_nino_nina_o_adolescente`, `resultados_de_la_intervencion`, `resultados_de_la_reposicion`, entre otras.
 
 La eliminación de estas columnas permitió reducir la fragmentación del DataFrame y conservar únicamente la información con potencial analítico.
 
-2.3 Eliminación de datos sensibles
+**Eliminación de datos sensibles (3)**
 
 Con el fin de garantizar la confidencialidad de los datos personales, se eliminaron tres columnas de contacto que contenían información privada:
-
-telefono_1
-
-telefono_2
-
-correo_1
+- `telefono_1`, `telefono_2`, `correo_1`
 
 Este paso asegura el cumplimiento de buenas prácticas de manejo de datos sensibles y evita cualquier riesgo de exposición de información personal identificable.
 
-2.4 Creación de nuevas variables
+**Creación de nuevas variables**
 
 Se generó la columna edad_final, que combina la información disponible en las variables edad y fecha_de_nacimiento.
+
 Cuando la edad estaba ausente, se calculó automáticamente a partir de la fecha de nacimiento, garantizando una cobertura completa y coherente de este indicador fundamental.
+
 Este procedimiento resolvió uno de los principales problemas detectados durante la comprensión de los datos: los valores faltantes en la variable de edad.
 
-2.5 Estructuración y depuración final
+**Estructuración y depuración final**
 
 Después de las transformaciones, se consolidó un DataFrame depurado (df_limpio) que conserva únicamente las columnas útiles para el análisis.
 Posteriormente, se identificaron las columnas de alertas y se evaluó su distribución general:
@@ -177,98 +149,95 @@ Porcentaje de filas con al menos una alerta: 3.41% del total de registros
 
 Porcentaje de filas con más de una alerta: también 3.41%, evidenciando que los casos con múltiples alertas coinciden con los casos donde existe al menos una alerta.
 
-2.6 Distribución de tipos de alerta
+**Distribución de tipos de alerta**
 
 El análisis individual por tipo de alerta mostró la siguiente proporción de registros válidos:
 
-Tipo de alerta	% Nulos	% No aplica alerta	% Aplica alerta	% Válidos
-Alertas Salud Bucal	96.59	0.54	2.88	3.41
-Alertas Infancia	96.59	3.07	0.34	3.41
-Alertas en Nutrición	97.09	2.63	0.28	2.91
-Alertas Psicosocial Unificada	96.59	3.31	0.10	3.41
-Alertas en Mujeres	97.11	2.82	0.07	2.89
+| Tipo de alerta                 | % Nulos | % No aplica | % Aplica | % Válidos |
+|-------------------------------|:-------:|:-----------:|:--------:|:---------:|
+| Alertas Salud Bucal           | 96.59   | 0.54        | 2.88     | 3.41      |
+| Alertas Infancia              | 96.59   | 3.07        | 0.34     | 3.41      |
+| Alertas en Nutrición          | 97.09   | 2.63        | 0.28     | 2.91      |
+| Alertas Psicosocial Unificada | 96.59   | 3.31        | 0.10     | 3.41      |
+| Alertas en Mujeres            | 97.11   | 2.82        | 0.07     | 2.89      |
 
 Estos resultados indican que la proporción total de registros con alguna alerta es baja (3.4%), lo que refleja una base altamente desbalanceada en términos de riesgo social.
+
 Dado que el número de casos con alerta es pequeño y existen múltiples tipos de alertas con distribuciones similares, se decidió unificar todos los tipos en una nueva columna denominada tiene_ael, que toma el valor 1 si el registro presenta cualquier tipo de alerta, sin importar su categoría o motivo, y 0 en caso contrario.
 Esta decisión simplifica el análisis posterior y facilita el tratamiento del conjunto como una variable binaria de riesgo general.
 
-2.7 Resumen global
+**Resumen global**
 
 Tras las etapas de limpieza, depuración y normalización, el conjunto de datos final quedó conformado de la siguiente manera:
 
-=== Resumen global ===
-Filas: 1,928  
-Columnas: 92  
-Celdas totales: 177,376  
+**Resumen global**
+- **Filas:** 1,928  
+- **Columnas:** 92  
+- **Celdas totales:** 177,376  
 
-2.8 Análisis Descriptivo Variables Relevantes
+**Análisis Descriptivo Variables Relevantes**
 ---
-Tasas de Alerta por Localidad
+- **Tasas de alerta por localidad**
+  
+  ![Tasas por localidad](https://github.com/user-attachments/assets/ac93f520-afd6-4b16-b3b1-7f5c38edc71b) 
 
-<img width="1186" height="690" alt="image" src="https://github.com/user-attachments/assets/ac93f520-afd6-4b16-b3b1-7f5c38edc71b" />
+-Las tasas de alerta son heterogéneas por localidad. Se observan porcentajes elevados en Usme, San Cristóbal, Bosa, Ciudad Bolívar y Santa Fe, mientras que Barrios Unidos, Usaquén y Suba presentan valores relativamente menores. Dado que algunos porcentajes extremos corresponden a localidades con bajo número de registros, se reportan intervalos de confianza y el tamaño muestral para evitar sobreinterpretación
 
-Las tasas de alerta son heterogéneas por localidad. Se observan porcentajes elevados en Usme, San Cristóbal, Bosa, Ciudad Bolívar y Santa Fe, mientras que Barrios Unidos, Usaquén y Suba presentan valores relativamente menores. Dado que algunos porcentajes extremos corresponden a localidades con bajo número de registros, se reportan intervalos de confianza y el tamaño muestral para evitar sobreinterpretación
+- **Distribución por edad y talla**
+  
+  ![Alertas por edad y talla](https://github.com/user-attachments/assets/e756aa84-b183-4789-acd6-f5db9380938c)
+  
+-Las edades y tallas son similares entre quienes tienen y no tienen alerta; por sí solas no distinguen el riesgo. Se observan valores de talla poco creíbles (p. ej., 0 cm) que deben corregirse. Para comparar tallas de forma justa, hay que considerar la edad
 
-Distribución de Alertas por Edades y Talla 
-<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/e756aa84-b183-4789-acd6-f5db9380938c" />
-Las edades y tallas son similares entre quienes tienen y no tienen alerta; por sí solas no distinguen el riesgo. Se observan valores de talla poco creíbles (p. ej., 0 cm) que deben corregirse. Para comparar tallas de forma justa, hay que considerar la edad
+- **Proporción por sexo**
+   
+  ![Proporción por sexo](https://github.com/user-attachments/assets/fa242cdf-0455-4ca1-b35e-4663b10e8dda)
+  
+-En ambos sexos la proporción de casos con alerta es muy similar y mayoritaria; el sexo, por sí solo, no diferencia el riesgo
 
-Proporción de Aleras por Sexo
-<img width="989" height="589" alt="image" src="https://github.com/user-attachments/assets/fa242cdf-0455-4ca1-b35e-4663b10e8dda" />
-En ambos sexos la proporción de casos con alerta es muy similar y mayoritaria; el sexo, por sí solo, no diferencia el riesgo
+**Distribución por estrato**
 
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/8bda4507-08be-45df-b082-9d532cd51ec6" />
-Distribución de Alertas por Estrato
-“Los estratos 1–2 concentran la mayor cantidad de casos con alerta; el estrato 3 presenta valores intermedios y el estrato 4 tiene muy pocos registros. Para una comparación justa se recomienda reportar porcentajes e indicar el tamaño muestral por estrato.
+![Distribución por estrato](https://github.com/user-attachments/assets/8bda4507-08be-45df-b082-9d532cd51ec6)
+  
+-“Los estratos 1–2 concentran la mayor cantidad de casos con alerta; el estrato 3 presenta valores intermedios y el estrato 4 tiene muy pocos registros. Para una comparación justa se recomienda reportar porcentajes e indicar el tamaño muestral por estrato.
 
-
+---
 
 ## Modelado  
 
-3. Modelado
+**Modelado**
 
 Durante la etapa de Modelado, se desarrolló un modelo predictivo para estimar la probabilidad de que un registro presente una alerta (variable tiene_alerta), a partir de características demográficas, socioeconómicas y territoriales.
 
-3.1 Tipo de modelo
+**Tipo de modelo**
 
-Se utilizó una regresión logística binaria (GLM, familia binomial con enlace logit), apropiada para variables respuesta categóricas binarias.
-La variable dependiente fue tiene_alerta (1 = sí presenta alerta, 0 = no presenta alerta).
+- **Regresión logística binaria** (GLM, familia binomial, enlace logit).  
+- **Variable objetivo:** `tiene_alerta` (1 = sí, 0 = no).  
+- **Predictoras:**
+  - *Categóricas:* `sexo`, `estrato`, `localidad`
+  - *Numéricas:* `edad_final`, `talla_cm`
 
-Variables independientes:
-
-Categóricas:
-
-sexo
-
-estrato
-
-localidad
-
-Numéricas:
-
-edad_final
-
-talla_cm
-
-La formulación general del modelo fue:
+**Ecuación (forma general):**
 
 <img width="978" height="136" alt="image" src="https://github.com/user-attachments/assets/0e72b55d-6dd4-48bf-9ecc-ee53a1b613b7" />
 ​
 
-3.2 Principales coeficientes y efectos
-Parámetro	Coeficiente	Odds Ratio
-Intercepto	-1.2765	0.279
-C(sexo)[Mujer]	-0.0643	0.938
-C(estrato)[2. Bajo]	0.1436	1.154
-C(estrato)[3. Medio-bajo]	0.0415	1.042
-C(estrato)[4. Medio]	-24.9364	1.48e-11
-C(localidad)[Teusaquillo]	25.2384	9.14e10
-C(localidad)[Tunjuelito]	25.5786	1.28e11
-C(localidad)[Usme]	25.5966	1.31e11
-edad_final	0.0182	1.018
-talla_cm	0.0084	1.008
+**Coeficientes y efectos (principales)**
 
-Interpretación:
+| Parámetro                         | Coef.   | Odds Ratio |
+|----------------------------------|:-------:|:----------:|
+| Intercepto                       | -1.2765 | 0.279      |
+| C(sexo)[Mujer]                   | -0.0643 | 0.938      |
+| C(estrato)[2. Bajo]              |  0.1436 | 1.154      |
+| C(estrato)[3. Medio-bajo]        |  0.0415 | 1.042      |
+| C(estrato)[4. Medio]             | -24.9364| 1.48e-11   |
+| C(localidad)[Teusaquillo]        | 25.2384 | 9.14e10    |
+| C(localidad)[Tunjuelito]         | 25.5786 | 1.28e11    |
+| C(localidad)[Usme]               | 25.5966 | 1.31e11    |
+| `edad_final`                     |  0.0182 | 1.018      |
+| `talla_cm`                       |  0.0084 | 1.008      |
+
+**Interpretación:**
 
 Las localidades son el factor más determinante del riesgo: ciertas zonas (Usme, Tunjuelito, La Candelaria, Teusaquillo) muestran odds ratios extremadamente altos (mayor probabilidad de alerta).
 
@@ -279,29 +248,28 @@ La edad y la talla tienen efectos leves pero positivos sobre la probabilidad de 
 El sexo femenino presenta un efecto negativo marginal.
 
 
-3.3 Umbral operativo
+**Umbral operativo**
 
 Se seleccionó el umbral 0.70 para la probabilidad predicha (p_alerta) al maximizar la macro-F1 (0.763).
 Se añadió una columna derivada IRA_alerta (Índice de Riesgo de Alerta = p_alerta * 100) y una categorización de riesgo (IRA_categoria):
 
-Alto: p_alerta ≥ 0.70
+  - **Alto:** p ≥ 0.70  
+  - **Medio:** 0.40 ≤ p < 0.70  
+  - **Bajo:** p < 0.40
 
-Medio: 0.40 ≤ p_alerta < 0.70
+**Ejemplo de casos con riesgo alto:**
 
-Bajo: p_alerta < 0.40
-
-Ejemplo de casos con riesgo alto:
-
-edad_final	talla_cm	sexo	estrato	localidad	p_alerta	IRA_alerta	IRA_categoria
-0	69.0	Hombre	2. Bajo	Ciudad Bolívar	0.937	93.7	Alto
-4	108.0	Mujer	2. Bajo	Tunjuelito	1.000	100.0	Alto
+| edad_final | talla_cm | sexo   | estrato | localidad       | p_alerta | IRA_alerta | IRA_categoria |
+|-----------:|---------:|--------|---------|-----------------|:--------:|:----------:|:-------------:|
+| 69.0       | —        | Hombre | 2. Bajo | Ciudad Bolívar  | 0.937    | 93.7       | Alto          |
+| 108.0      | —        | Mujer  | 2. Bajo | Tunjuelito      | 1.000    | 100.0      | Alto          |
 
 
-## Mdoelado
+## Modelado
 
 La etapa de Evaluación midió el desempeño y la calidad predictiva del modelo mediante métricas de precisión, sensibilidad y discriminación.
 
-4.1 Métricas de desempeño
+**Métricas de desempeño**
 
 | Métrica | Valor | Interpretación |
 |----------|--------|----------------|
@@ -311,10 +279,14 @@ La etapa de Evaluación midió el desempeño y la calidad predictiva del modelo 
 | F1-Score | 0.77 | Equilibrio entre precisión y sensibilidad. |
 | AUC-ROC | 0.84 | Buen desempeño global en discriminación de clases. |
 ---
-<img width="691" height="548" alt="image" src="https://github.com/user-attachments/assets/ec2d44ba-88bd-40f4-a5d1-780bb42473bb" />
+**Curvas y gráficos**
+- ROC y distribución de probabilidades:
+   
+  ![ROC](https://github.com/user-attachments/assets/ec2d44ba-88bd-40f4-a5d1-780bb42473bb)
+  
 El modelo discrimina bien (AUC=0.88): separa con solidez casos con y sin alerta. El umbral se fija según el costo de errores: si es crítico no omitir vulnerables, prioriza sensibilidad alta; si la capacidad es limitada, busca menos falsos positivos
 
-<img width="707" height="547" alt="image" src="https://github.com/user-attachments/assets/e240067f-c515-482a-a331-b778505db877" />
+  ![Distribución](https://github.com/user-attachments/assets/e240067f-c515-482a-a331-b778505db877)
 
 Aciertos: 1.468 casos con alerta bien detectados y 176 sin alerta bien descartados.
 
@@ -322,8 +294,7 @@ Errores: 161 falsos negativos (se escaparon con alerta) y 74 falsos positivos (s
 
 El modelo detecta muy bien a quienes tienen alerta, pero se le dificulta distinguir a algunos que No alerta (hay varios falsos positivos). Esto es normal cuando la clase “Sí” es muy prevalente
 
-
- 4.2 Interpretación de resultados
+**Interpretación de resultados**
 
 El modelo discrimina eficazmente los casos con alerta, alcanzando alta precisión (0.95) y recall (0.90) en la clase positiva.
 
@@ -334,7 +305,7 @@ La AUC de 0.879 confirma una excelente capacidad de separación entre casos con 
 El umbral 0.70 representa un balance óptimo entre precisión y sensibilidad, priorizando la detección de verdaderos positivos.
 
 
-4.3 Conclusiones y recomendaciones
+**Conclusiones y recomendaciones**
 
 Desempeño general: El modelo presenta un alto poder predictivo (AUC=0.879, F1_macro=0.763), apropiado para identificar registros con riesgo de alerta.
 
