@@ -270,7 +270,7 @@ Se añadió una columna derivada IRA_alerta (Índice de Riesgo de Alerta = p_ale
 | 108.0      | —        | Mujer  | 2. Bajo | Tunjuelito      | 1.000    | 100.0      | Alto          |
 
 
-## Modelado
+## Evaluación
 
 La etapa de Evaluación midió el desempeño y la calidad predictiva del modelo mediante métricas de precisión, sensibilidad y discriminación.
 
