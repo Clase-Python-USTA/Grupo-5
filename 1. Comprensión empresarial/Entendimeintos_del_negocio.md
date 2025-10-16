@@ -2,19 +2,15 @@
 
 ## Objetivos del Negocio
 
-### Objetivo General  
-Diseñar y validar un índice estadístico de riesgo social para la población infantil y adolescente de Bogotá, a partir de variables sociodemográficas, educativas y del entorno familiar, con el propósito de identificar niveles de vulnerabilidad social y entregar resultados cuantitativos que sirvan de insumo para posteriores decisiones.
+Diseñar y validar un índice estadístico de riesgo social para población infantil y adolescente de Bogotá usando variables sociodemográficas, educativas y del entorno familiar, con el fin de identificar niveles de vulnerabilidad y generar resultados cuantitativos que sirvan como insumo para posteriores decisiones por parte de expertos del área social.
 
-### Objetivos Específicos  
-1. Definir y operacionalizar indicadores dentro de tres dimensiones principales del riesgo social: edad, nivel educativo y condiciones del hogar o entorno.
-   
-2. Construir un índice compuesto de riesgo social, estandarizando y ponderando los indicadores seleccionados.
-   
-3. Ajustar un modelo explicativo tipo GLM (Modelo Lineal Generalizado) para estimar el efecto estadístico de cada dimensión en la probabilidad de vulnerabilidad.
+## Objetivos específicos.
 
-4. Validar el índice mediante métricas estadísticas, garantizando su robustez e interpretabilidad.
+Definir y operacionalizar indicadores en dimensiones demográfica, educativa y familiar/social.
+Construir y validar un índice compuesto de riesgo mediante estandarización, ponderación y métricas de ajuste.
+Ajustar un GLM (logístico binario) para estimar el efecto de variables sobre la vulnerabilidad y entregar resultados estadísticos y visuales.
+Alcance. Se limita al análisis estadístico y modelado predictivo; la interpretación social y las estrategias quedan a cargo de expertos del sector.
 
-5. Entregar los resultados de análisis y modelado, sin proponer estrategias de intervención, dejando dicha interpretación a los especialistas en el área social.
 
 ---
 
